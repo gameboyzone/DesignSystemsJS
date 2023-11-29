@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Design System Test</title>
+  <script type="module">
+    import { DesignSystems } from './index.js';
+
+    console.log(DesignSystems);
+  </script>
+</head>
+<body>
+  <h1>Design System API Test</h1>
+
+  <form name="formTest" method="GET" onsubmit="return false;">
+    <div>
+      <label for="fullName">Full name</label>:
+      <input id="fullName" name="fullName" type="text" />
+    </div>
+    <div>
+      <label for="sex">Sex</label>:
+      <input id="sex" name="sex" type="radio" value="M">Male</input>&nbsp;
+      <input id="sex" name="sex" type="radio" value="F">Female</input>
+    </div>
+    <div style="padding-top: 20px;">
+      <input type="submit" text="Submit" />
+    </div>
+  </form>
+</body>
+</html>
