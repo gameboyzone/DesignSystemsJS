@@ -2,39 +2,40 @@
  *
  */
 export interface IMaintenance {
-  documentation: IDocumentation;
-  libraries: ILibraries;
-  processes: IProcesses;
-  support: ISupport;
-  contribution: IContribution;
+  documentation?: IDocumentation;
+  libraries?: ILibraries;
+  processes?: IProcesses;
+  support?: ISupport;
+  contribution?: IContribution;
+  [otherProps: string]: unknown;
 }
 
 /**
  *
  */
 export interface IDocumentation {
-  default: string;
+  [otherProps: string]: unknown;
 }
 
 /**
  *
  */
 export interface ILibraries {
-  default: string;
+  [otherProps: string]: unknown;
 }
 
 /**
  *
  */
 export interface IProcesses {
-  default: string;
+  [otherProps: string]: unknown;
 }
 
 /**
  *
  */
 export interface ISupport {
-  default: string;
+  [otherProps: string]: unknown;
 }
 
 /**

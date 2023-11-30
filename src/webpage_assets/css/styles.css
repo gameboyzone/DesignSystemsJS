@@ -1,0 +1,52 @@
+/* Styles for page header */
+.sds-text-primary {
+  color: var(--text-primary);
+}
+
+/* Styles for label component */
+.sds-label {
+  color: var(--text-primary);
+  background-color: var(--background-primary);
+}
+
+/* Styles for textfield component */
+.sds-textfield {
+  color: var(--text-primary);
+  background-color: var(--background-primary);
+}
+.sds-textfield:hover {
+  color: var(--text-primary);
+  background-color: var(--background-secondary);
+}
+.sds-textfield:active {
+  color: var(--text-primary);
+  background-color: var(--background-primary);
+}
+
+/* Styles for radio button component */
+.sds-radio {
+  color: var(--text-primary);
+  background-color: var(--background-primary);
+}
+.sds-radio:hover {
+  color: var(--text-primary);
+  background-color: var(--background-secondary);
+}
+.sds-radio:active {
+  color: var(--text-primary);
+  background-color: var(--background-primary);
+}
+
+/* Styles for button-primary component */
+.sds-button-primary {
+  color: var(--text-secondary);
+  background-color: var(--components-primary);
+}
+.sds-button-primary:hover {
+  color: var(--text-secondary);
+  background-color: var(--states-hover);
+}
+.sds-button-primary:active {
+  color: var(--text-secondary);
+  background-color: var(--states-pressed);
+}

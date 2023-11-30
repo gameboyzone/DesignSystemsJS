@@ -9,16 +9,10 @@
     "sourceMap": true,
     "strict": true,
     "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
     "types": ["node", "jest"],
     "skipLibCheck": true
-  },
-  "ts-node": {
-    // these options are overrides used only by ts-node
-    // same as the --compilerOptions flag and the TS_NODE_COMPILER_OPTIONS environment variable
-    "compilerOptions": {
-      "module": "commonjs",
-      "esModuleInterop": true
-    }
   },
   "include": ["src/**/*"],
   "exclude": ["src/**/*.spec.ts"]

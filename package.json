@@ -18,7 +18,7 @@
     "prettier-watch:default": "onchange 'src/**/*.ts' -- prettier --write {{changed}}",
     "test": "jest",
     "test:dev": "jest --watchAll",
-    "copy-files": "copyfiles -u 1 src/**/*.html ./build && echo 'HTML files copied.'"
+    "copy-files": "copyfiles -u 1 src/**/*.html src/**/*.json src/**/*.css ./build && echo 'HTML files copied.'"
   },
   "husky": {
     "hooks": {

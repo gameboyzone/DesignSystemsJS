@@ -1,0 +1,42 @@
+{
+  "id": "sample-design-system",
+  "name": "Sample Design System",
+  "description": "Use Sample's end-to-end design language to create simple, intuitive and beautiful experiences.",
+  "url": "https://no-url-available.com/",
+  "designLanguage": {},
+  "foundations": {
+    "colors": {
+      "text": {
+        "primary": "#172B4D",
+        "secondary": "#FFFFFF",
+        "tertiary": "string"
+      },
+      "background": {
+        "primary": "#FFFFFF",
+        "secondary": "#F4F5F7",
+        "tertiary": "string",
+        "success": "",
+        "informational": "",
+        "warning": "",
+        "error": ""
+      },
+      "components": {
+        "primary": "#0052CC",
+        "secondary": "#8993A5",
+        "tertiary": "string"
+      },
+      "states": {
+        "default": "",
+        "hover": "#0065FF",
+        "pressed": "#0747A6"
+      }
+    },
+    "layout": {},
+    "typography": {},
+    "elevation": {},
+    "motion": {},
+    "iconography": {}
+  },
+  "components": {},
+  "maintenance": {}
+}

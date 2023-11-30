@@ -1,51 +1,50 @@
+import { IColors } from './Colors';
 import { ICommon } from './shared';
 
+
 /**
- *
+ * 
  */
 export interface IFoundations {
   colors: IColors;
-  layout: Layout;
-  typography: Typography;
-  elevation: Elevation;
-  motion: Motion;
-  iconography: Iconography;
+  layout?: ILayout;
+  typography?: ITypography;
+  elevation?: IElevation;
+  motion?: IMotion;
+  iconography?: IIconography;
 }
 
 /**
  *
  */
-export interface IColors {
-  pallette: IPallette;
-  states: IStates;
-  backgrounds: IBackgrounds;
-  actions: ICommon[];
+export interface ILayout {
+  [otherProps: string]: unknown;
 }
 
 /**
  *
  */
-export interface IPallette {
-  primary: string;
-  secondary: string;
-  tertiary: string;
-  text: object;
-  background: object;
-  icon: object;
+export interface ITypography {
+  [otherProps: string]: unknown;
 }
 
 /**
  *
  */
-export interface IStates {
-  default: string;
-  hover: string;
-  pressed: string;
+export interface IElevation {
+  [otherProps: string]: unknown;
 }
 
 /**
  *
  */
-export interface IBackgrounds {
-  default: string;
+export interface IMotion {
+  [otherProps: string]: unknown;
+}
+
+/**
+ *
+ */
+export interface IIconography {
+  [otherProps: string]: unknown;
 }

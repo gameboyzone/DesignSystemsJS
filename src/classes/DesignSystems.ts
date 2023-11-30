@@ -13,10 +13,14 @@ export class DesignSystems implements IDesignSystems {
   /***
    *
    */
-  private add = (designSystem: any) => {};
+  private add = (designSystem: IDesignSystem) => {
+    this.designSystems.push(designSystem);
+  };
 
   /***
    *
    */
-  private remove = (designSystem: any) => {};
+  private remove = (designSystem: IDesignSystem) => {
+    
+  };
 }

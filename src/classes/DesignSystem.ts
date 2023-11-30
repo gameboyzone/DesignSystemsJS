@@ -6,6 +6,10 @@ import { IMaintenance } from '../types/Maintenance';
 
 export class DesignSystem implements IDesignSystem {
   // private variables
+  id: string;
+  name: string;
+  description: string;
+  url: string;
   designLanguage: IDesignLanguage;
   foundations: IFoundations;
   components: IComponents;
@@ -13,11 +17,19 @@ export class DesignSystem implements IDesignSystem {
 
   // constructor
   constructor(
-    designLanguage: any,
-    foundations: any,
-    components: any,
-    maintenance: any,
+    id: string,
+    name: string,
+    description: string,
+    url: string,
+    designLanguage: IDesignLanguage,
+    foundations: IFoundations,
+    components: IComponents,
+    maintenance: IMaintenance,
   ) {
+    this.id = id;
+    this.name = name;
+    this.description = description;
+    this.url = url;
     this.designLanguage = designLanguage;
     this.foundations = foundations;
     this.components = components;

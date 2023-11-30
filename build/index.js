@@ -1,20 +1,22 @@
 // import classes
 import { DesignSystems as DesignSystemsJS } from './classes/DesignSystems.js';
-import { DesignSystem } from './classes/DesignSystem.js';
-export let DesignSystems;
+// import data
+// import sampleDesignSystem from './data/SampleDesignSystem.json';
+/*
+let DesignSystems: DesignSystemsJS;
+
 // eslint-disable-next-line no-console
 console.log("--------------------------------------");
 console.log("Compiling DesignSystemJS ...");
 console.log("--------------------------------------");
-// Construct DesignSystem
-let designLanguage = {};
-let foundations = {};
-let components = {};
-let maintenance = {};
-// Initialize DesignSystemsJS
-let EverestDesignSystem = new DesignSystem(designLanguage, foundations, components, maintenance);
-DesignSystems = new DesignSystemsJS([EverestDesignSystem]);
+
+// Initialize DesignSystemsJS from a DesignSystem JSON object
+DesignSystems = new DesignSystemsJS([sampleDesignSystem]);
+
 console.log("--------------------------------------");
 console.log("DesignSystemJS compilation successful");
 console.log("--------------------------------------");
+*/
+// Leaving room to export multiple items
+export default DesignSystemsJS;
 //# sourceMappingURL=index.js.map
