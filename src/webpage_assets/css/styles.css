@@ -24,17 +24,17 @@
 }
 
 /* Styles for radio button component */
-.sds-radio {
+.sds-radio:checked {
   color: var(--text-primary);
-  background-color: var(--background-primary);
+  background-color: var(--components-primary);
 }
 .sds-radio:hover {
   color: var(--text-primary);
-  background-color: var(--background-secondary);
+  background-color: var(--states-hover);
 }
 .sds-radio:active {
   color: var(--text-primary);
-  background-color: var(--background-primary);
+  background-color: var(--states-pressed);
 }
 
 /* Styles for button-primary component */
