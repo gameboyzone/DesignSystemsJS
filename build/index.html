@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>DesignSystemsJS Test</title>
+
+  <link rel="stylesheet" href="./webpage_assets/css/styles.css" />
+
+  <script type="module">
+    import DesignSystemsJS from './index.js';
+    const { default: sampleDesignSystem } = await import("./data/SampleDesignSystem.json", { assert: { type: "json" } });
+
+    // Initialize DesignSystemsJS. Pass sampleDesignSystem JSON.
+    const DesignSystems = new DesignSystemsJS([sampleDesignSystem]);
+    DesignSystems.setRootElement(document.documentElement);
+
+    // Set the DesignSystems object in global scope
+    window.DesignSystems = DesignSystems;
+  </script>
+</head>
+<body>
+  <h1 class="sds-text-primary">DesignSystemsJS Test</h1>
+
+  <form name="formTest" method="GET" onsubmit="return false;">
+    <div>
+      <label for="fullName" class="sds-label">Full name</label>:
+      <input id="fullName" name="fullName" type="text" class="sds-textfield" />
+    </div>
+    <div>
+      <label for="sex" class="sds-label">Sex</label>:
+      <input id="sex" name="sex" type="radio" value="M" class="sds-radio">Male</input>&nbsp;
+      <input id="sex" name="sex" type="radio" value="F" class="sds-radio">Female</input>
+    </div>
+    <div style="padding-top: 20px;">
+      <input type="submit" text="Submit" class="sds-button-primary" />
+    </div>
+  </form>
+</body>
+</html>
