@@ -9,18 +9,9 @@
     import DesignSystemsJS from './index.js';
     const { default: sampleDesignSystem } = await import("./data/SampleDesignSystem.json", { assert: { type: "json" } });
 
-    // Initialize DesignSystemsJS. Pass SampleDesignSystem JSON.  
+    // Initialize DesignSystemsJS. Pass sampleDesignSystem JSON.
     const DesignSystems = new DesignSystemsJS([sampleDesignSystem]);
-
-    const root = document.documentElement;
-    root.style.setProperty('--text-primary', DesignSystems.designSystems[0]?.foundations?.colors?.text?.primary);
-    root.style.setProperty('--text-secondary', DesignSystems.designSystems[0]?.foundations?.colors?.text?.secondary);
-    root.style.setProperty('--background-primary', DesignSystems.designSystems[0]?.foundations?.colors?.background?.primary);
-    root.style.setProperty('--background-secondary', DesignSystems.designSystems[0]?.foundations?.colors?.background?.secondary);
-    root.style.setProperty('--components-primary', DesignSystems.designSystems[0]?.foundations?.colors?.components?.primary);
-    root.style.setProperty('--components-secondary', DesignSystems.designSystems[0]?.foundations?.colors?.components?.secondary);
-    root.style.setProperty('--states-hover', DesignSystems.designSystems[0]?.foundations?.colors?.states?.hover);
-    root.style.setProperty('--states-pressed', DesignSystems.designSystems[0]?.foundations?.colors?.states?.pressed);
+    DesignSystems.setRootElement(document.documentElement);
 
     // Set the DesignSystems object in global scope
     window.DesignSystems = DesignSystems;
