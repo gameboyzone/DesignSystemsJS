@@ -68,7 +68,7 @@ Format your code in watch mode, waiting for file changes.
 1.  In VSCode, Press Cmd + Shift + P > Live Preview: Start Server
 2.  Open URL in browser: http://127.0.0.1:3000/build/index.html
 
-### Starter project
+### Credits
 This project has been built using simple-typescript-starter. Links below:
 - https://khalilstemmler.com/blogs/typescript/node-starter-project/
 - https://github.com/stemmlerjs/simple-typescript-starter
