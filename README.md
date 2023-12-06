@@ -1,5 +1,5 @@
 # DesignSystemsJS
-A JavaScript library which offers a Design Systems API for aiding requirements standardization and AI integration
+A JavaScript library which offers a Design Systems API for aiding standardization and AI integration
 
 ## Features
 - DesignSystemsJS aims to standardize implementation of a Design System, thereby mitigating the associated challenges
