@@ -2,10 +2,14 @@
   "compilerOptions": {
     "target": "es6",
     "module": "es6",
-    "lib": ["es6"],
+    "lib": [
+      "es6",
+      "dom"
+    ],
     "allowJs": true,
     "outDir": "build",
     "rootDir": "src",
+    "strictPropertyInitialization": false,
     "sourceMap": true,
     "strict": true,
     "esModuleInterop": true,
