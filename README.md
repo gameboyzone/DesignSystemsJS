@@ -22,12 +22,7 @@ A JavaScript library which offers a Design Systems API for aiding standardizatio
 - Prettier
 - copyfiles
 
-## Development
-This project has been built using simple-typescript-starter. See links below:
-- https://khalilstemmler.com/blogs/typescript/node-starter-project/
-- https://github.com/stemmlerjs/simple-typescript-starter
-
-## To Do:
+## Upcoming feature support:
 1.  Compile-time dependency: Add support for Webpack -
     - Problem: https://stackoverflow.com/questions/65551383/typescript-node-error-err-module-not-found-cannot-find-module
     - Solution: https://codedamn.com/news/typescript/typescript-webpack-step-by-step-guide
@@ -35,6 +30,11 @@ This project has been built using simple-typescript-starter. See links below:
 3.  Example: Add complete support for Radio Button and Dropdown
 4.  Example: AI integration example
 5.  Feature: Evaluate integration of Amazon Style Dictionary and related TypeScript types, instead of currently offered custom JSON object structure and TypeScript types.
+
+### Starter project
+This project has been built using simple-typescript-starter. See links below:
+- https://khalilstemmler.com/blogs/typescript/node-starter-project/
+- https://github.com/stemmlerjs/simple-typescript-starter
 
 ### Commands
 
@@ -65,3 +65,7 @@ Format your code.
 #### `npm run prettier-watch`
 
 Format your code in watch mode, waiting for file changes.
+
+### Running DesignSystemsJS Test
+1.  In VSCode, Press Cmd + Shift + P > Live Preview: Start Server
+2.  Open URL in browser: http://127.0.0.1:3000/build/index.html
