@@ -37,10 +37,6 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Build and Compiled binary addons (https://nodejs.org/api/addons.html)
-build
-build/Release
-
 # Dependency directories
 node_modules/
 jspm_packages/
