@@ -1,5 +1,9 @@
 # DesignSystemsJS
-A JavaScript library built on an architecture and API facilitate a more unified and streamlined approach to designing and implementing Design Systems, potentially revolutionizing how design consistency is maintained across different platforms and tools. This project is currently under progress, and inviting contributors and funding. Please raise a New issue under 'Issues' tab and I can connect with you.
+Design Systems have emerged as a crucial framework that enforce consistency and efficiency in User Interface (UI) and User Experience (UX) Design. However, this inconsistency in interpretation of requirements and implementation of these systems varies significantly across teams, leading to divergent costs, efforts, and timelines in software projects. Our research introduces "DesignSystemsJS", a novel JavaScript library aimed to standardize the requirements and implementation of Design Systems. The proposed approach involves defining the Design System using a JSON format specification, based on a meticulously researched checklist. DesignSystemJS will then offer a Application Programming Interface (API) to consume the Design System in your web application.
+
+From the API support, DesignSystemsJS aims to support Artificial Intelligence (AI) integration, reflecting the ongoing paradigm shift in the software development industry towards generative AI assistants.
+
+This project is currently under progress, and inviting contributors and funding. Please raise a New issue under 'Issues' tab and I can connect with you.
 
 ## Features supported
 - DesignSystemsJS is a JavaScript library that provides a structured and consistent framework for implementing a Design System via a JSON-based specification derived from a well-researched [Design System checklist](https://www.DesignSystemsChecklist.com)
